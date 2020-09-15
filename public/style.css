@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    /* background-color: rgb(161, 5, 29); */
+}
+
+a {
+    color: #0060B6;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00A0C6;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu {
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#list-menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
