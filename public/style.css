@@ -3,6 +3,43 @@ h1 {
     /* background-color: rgb(161, 5, 29); */
 }
 
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+#welcome-p {
+    text-align: center;
+    color: grey;
+    font-size: 40px;
+}
+
+#description-p {
+    text-align: center;
+    color: grey;
+    font-size: 22px;
+}
+
+#dunk-MJ {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 400px;
+}
+
+#description-MJ {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 200px;
+}
+
+#wings-MJ {
+    width: 100%;
+}
+
 a {
     color: #0060B6;
     text-decoration: none;
