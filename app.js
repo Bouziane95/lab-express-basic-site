@@ -22,6 +22,10 @@ app.get("/works", (req, res) => {
   res.render("works");
 });
 
+app.get("/photo", (req, res) => {
+  res.render("photo");
+});
+
 //KICKSTART PHASE
 app.listen(port, () => {
   console.log(`http://localhost:${port}`);

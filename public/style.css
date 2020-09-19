@@ -6,6 +6,13 @@ nav {
     top: 0px;
 }
 
+#paragraph-description {
+    text-align: center;
+    color: grey;
+    font-size: 22px;
+    padding-top: 90px;
+}
+
 nav ul {
     list-style-type: none;
 }
@@ -38,7 +45,8 @@ nav a:hover {
 .sous {
     display: none;
     box-shadow: 0px 1px 2px #CCC;
-    background-color: white;
+    background-color: whitesmoke;
+    border-radius: 20px;
 }
 
 nav>ul li:hover .sous {
@@ -54,11 +62,17 @@ nav>ul li:hover .sous {
 .sous a {
     padding: 10px;
     border-bottom: none;
+    font-size: 18px;
 }
 
 .sous a:hover {
     border-bottom: none;
     background-color: RGBa(200, 200, 200, 0.1);
+}
+
+.deroulant {
+    font-size: 18px;
+    margin-left: 35%;
 }
 
 .deroulant>a::after {
