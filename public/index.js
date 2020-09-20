@@ -26,3 +26,5 @@ elementSelected2.onclick = () => {
 elementSelected3.onclick = () => {
   changeParagraph(descriptionArray[2]);
 };
+
+
